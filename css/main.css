@@ -49,7 +49,7 @@ body {
 
 .viking {
   top: 219px;
-  left: 376px;
+  left: 377px;
   transform: rotate(16deg);
   width: 60px;
   height: 163px;
@@ -68,12 +68,62 @@ body {
   left: -39px;
 }
 
-.viking__shoulderLeft {
-  top: -9px;
+.viking__shoulderRight {
+  top: -10px;
   left: -84px;
   width: 66px;
   height: 157px;
   border-radius: 100em;
   background-color: #efae82;
   transform: rotate(32deg);
+}
+
+.viking__shoulderRight::after {
+  top: -2px;
+  left: -26px;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  background-color: #d7dfe3;
+  background-image: radial-gradient(circle at 50px 50px, #f3fbfc 11px, transparent 11px), radial-gradient(#d7dfe3 25px, #c3cbd3 25px, #c3cbd3 34px, #d7dfe3 34px);
+}
+
+.viking__armRight {
+  top: 91px;
+  left: 0px;
+  width: 66px;
+  height: 142px;
+  border-radius: 100em;
+  background-color: #efae82;
+  transform: rotate(-28deg);
+  transform-origin: 33px 33px;
+}
+
+.viking__handRight {
+  top: 98px;
+  left: -9px;
+  width: 86px;
+  height: 86px;
+  background-color: #efae82;
+  border-radius: 50%;
+  border-top-right-radius: 40px 39px;
+}
+
+.viking__handRight::before {
+  top: 25px;
+  left: 64px;
+  width: 30px;
+  height: 30px;
+  background-color: #e89f6f;
+  border-radius: 50%;
+}
+
+.viking__handRight::after {
+  top: 22px;
+  left: auto;
+  right: 0px;
+  width: 23px;
+  height: 64px;
+  background-color: #efae82;
+  border-radius: 100em;
 }
