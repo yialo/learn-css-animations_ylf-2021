@@ -1,0 +1,5 @@
+@keyframes viking {
+  0%, 100% {
+    transform: rotate(17deg);
+  }
+}
